@@ -31,7 +31,7 @@ Projeto desenvolvido utilizando MySQL para praticar conceitos de banco de dados 
 ## Como executar
 
 1. Execute o script `01_create_sistema_cadastro.sql`
-2. Execute o script `02_insert_sistema_cadastro.sql`
+2. Execute o script `01_insert_sistema_cadastro.sql`
 3. Execute os scripts de consulta ou exclusão conforme necessário
 
 ## Autor
