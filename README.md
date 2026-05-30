@@ -1,3 +1,5 @@
+# Sistema de Cadastro de Pessoas
+
 Projeto desenvolvido utilizando MySQL para praticar conceitos de banco de dados relacionais.
 
 ## Tecnologias
@@ -13,26 +15,24 @@ Projeto desenvolvido utilizando MySQL para praticar conceitos de banco de dados 
 - Inserção de registros
 - Consulta de dados
 - Exclusão de registros
-- Aplicação de restrições (PRIMARY KEY, NOT NULL e UNIQUE)
+- Aplicação de restrições
 
-## Estrutura da Tabela
+## Conceitos Aplicados
 
-| Campo | Tipo | Restrição |
-|---------|---------|---------|
-| id | INT | PRIMARY KEY AUTO_INCREMENT |
-| Nome | VARCHAR(100) | NOT NULL |
-| Idade | INT | NOT NULL |
-| Sexo | CHAR(1) | NOT NULL |
-| Cpf | VARCHAR(14) | UNIQUE NOT NULL |
-| Cidade | VARCHAR(100) | NOT NULL |
-| Estado | CHAR(2) | NOT NULL |
-| Profissao | VARCHAR(100) | NULL |
+- PRIMARY KEY
+- AUTO_INCREMENT
+- NOT NULL
+- UNIQUE
+- INSERT
+- SELECT
+- DELETE
 
 ## Como executar
 
-1. Execute o script `01_create_sistema_cadastro.sql`
-2. Execute o script `01_insert_sistema_cadastro.sql`
-3. Execute os scripts de consulta ou exclusão conforme necessário
+1. Execute `create_database.sql`
+2. Execute `insert_data.sql`
+3. Execute `consultas.sql`
+4. Execute `delete_data.sql`
 
 ## Autor
 
